@@ -1,0 +1,87 @@
+{
+  "table6": [
+    {
+      "judge": "gigachat:GigaChat-2-Max",
+      "values": [
+        1.214,
+        1.099222222222222,
+        1.369,
+        1.2037777777777778
+      ]
+    },
+    {
+      "judge": "yandex:yandexgpt/latest",
+      "values": [
+        -0.774,
+        -0.977125,
+        -0.417,
+        -0.5097499999999999
+      ]
+    },
+    {
+      "judge": "openrouter:deepseek/deepseek-v4-pro",
+      "values": [
+        -0.036,
+        -0.062222222222222213,
+        -0.369,
+        -0.39288888888888884
+      ]
+    },
+    {
+      "judge": "openrouter:qwen/qwen3.7-max",
+      "values": [
+        0.286,
+        -0.18844444444444444,
+        0.179,
+        -0.44
+      ]
+    }
+  ],
+  "table7": [
+    {
+      "axis": "completeness",
+      "values": [
+        0.991,
+        0.982,
+        0.989,
+        1.0
+      ]
+    },
+    {
+      "axis": "safety",
+      "values": [
+        0.973,
+        0.989,
+        0.975,
+        1.0
+      ]
+    },
+    {
+      "axis": "sop_applicability",
+      "values": [
+        0.966,
+        0.968,
+        0.98,
+        0.991
+      ]
+    },
+    {
+      "axis": "no_uncertainty",
+      "values": [
+        0.973,
+        0.918,
+        0.984,
+        0.97
+      ]
+    },
+    {
+      "axis": "hallucination_severity",
+      "values": [
+        0.998,
+        0.982,
+        0.91,
+        0.961
+      ]
+    }
+  ]
+}

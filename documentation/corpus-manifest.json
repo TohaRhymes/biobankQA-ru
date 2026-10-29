@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-06-17",
+  "parser": "parse_materials_v2",
+  "extraction_backend": "unstructured[pdf] strategy=fast",
+  "sources": [
+    {
+      "file": "ISBER-Best-Practice-2023-5th-edition.pdf",
+      "short": "isber-en-5ed",
+      "lang": "en",
+      "pages": 196,
+      "chunks": 436,
+      "articles": 1,
+      "avg_chunk_tokens": 400.9,
+      "dropped_chunks": 0,
+      "headers_stripped": 294,
+      "null_section_chunks": 16
+    },
+    {
+      "file": "isber_bp_4ed_russian.pdf",
+      "short": "isber-ru-4ed",
+      "lang": "ru",
+      "pages": 104,
+      "chunks": 204,
+      "articles": 1,
+      "avg_chunk_tokens": 375.2,
+      "dropped_chunks": 0,
+      "headers_stripped": 368,
+      "null_section_chunks": 0
+    },
+    {
+      "file": "программа по биобанкированию_ред 09.07.2025.doc",
+      "short": "program-ru-2025",
+      "lang": "ru",
+      "pages": 1,
+      "chunks": 12,
+      "articles": 1,
+      "avg_chunk_tokens": 386.3,
+      "dropped_chunks": 0,
+      "headers_stripped": 0,
+      "null_section_chunks": 12
+    },
+    {
+      "file": "25-07-Meshkov.pdf",
+      "short": "meshkov-monograph-2022",
+      "lang": "ru",
+      "pages": 308,
+      "chunks": 359,
+      "articles": 1,
+      "avg_chunk_tokens": 359.7,
+      "dropped_chunks": 44,
+      "headers_stripped": 314,
+      "null_section_chunks": 9
+    },
+    {
+      "file": "cardiovascular_2023.pdf",
+      "short": "cardiovasc-2023",
+      "lang": "ru",
+      "pages": 164,
+      "chunks": 297,
+      "articles": 17,
+      "avg_chunk_tokens": 382.5,
+      "dropped_chunks": 3,
+      "headers_stripped": 638,
+      "null_section_chunks": 36
+    },
+    {
+      "file": "cardiovascular_2024.pdf",
+      "short": "cardiovasc-2024",
+      "lang": "ru",
+      "pages": 171,
+      "chunks": 328,
+      "articles": 16,
+      "avg_chunk_tokens": 381.3,
+      "dropped_chunks": 23,
+      "headers_stripped": 668,
+      "null_section_chunks": 42
+    },
+    {
+      "file": "cardiovascular_2025.pdf",
+      "short": "cardiovasc-2025",
+      "lang": "ru",
+      "pages": 148,
+      "chunks": 321,
+      "articles": 14,
+      "avg_chunk_tokens": 357.2,
+      "dropped_chunks": 8,
+      "headers_stripped": 230,
+      "null_section_chunks": 279
+    }
+  ],
+  "total_chunks": 1957,
+  "total_articles": 51,
+  "languages": {
+    "en": 724,
+    "ru": 1233
+  },
+  "chunk_target_tokens": 512,
+  "chunk_overlap_tokens": 64,
+  "wall_seconds": 161.8
+}

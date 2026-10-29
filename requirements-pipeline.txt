@@ -1,0 +1,39 @@
+# --- API clients ---
+openai>=1.55.0              # YandexGPT (OpenAI-compat) + OpenAI judge + OpenRouter
+anthropic>=0.40.0           # Claude (external-run candidate model)
+httpx>=0.27.0               # GigaChat low-level + general HTTP
+tenacity>=9.0.0             # retries with exponential backoff
+python-dotenv>=1.0.0        # .env loader
+
+# --- Document parsing ---
+python-docx>=1.1.2          # .docx (test questions, plan)
+mammoth>=1.8.0              # fallback for older .doc / messier docx
+pdfplumber>=0.11.0          # ISBER PDFs (for future RAG)
+openpyxl>=3.1.5             # models_comparison.xlsx if we need it programmatically
+
+# --- Data ---
+pydantic>=2.9.0             # schema validation for benchmark items
+pandas>=2.2.0               # tables and reports
+jsonlines>=4.0.0            # jsonl I/O
+
+# --- Eval / reporting ---
+matplotlib>=3.9.0           # plots in report
+
+# --- RAG (v0.1) ---
+# Pinned model revisions live in benchmark/rag/build_index.py:
+#   BAAI/bge-m3              @ 5617a9f61b028005a4858fdac845db406aefb181
+#   BAAI/bge-reranker-v2-m3  @ 953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e
+sentence-transformers>=3.0  # bge-m3 dense embeddings + bge-reranker-v2-m3 cross-encoder
+rank_bm25>=0.2.2            # BM25Okapi (sparse retrieval over lemmatised RU)
+pymorphy3==2.0.6            # Russian lemmatisation for the BM25 side (pinned: DA review fix #5)
+pymorphy3-dicts-ru==2.4.417150.4580142  # pinned: dict version change = different lemmas = stale BM25
+
+# --- Dev ---
+ruff>=0.6.0
+pytest>=8.3.0
+pyflakes>=3.0.0             # used in v0.1 RAG validation step
+
+# Parser dependency used by parse_materials_v2.py
+unstructured[pdf]>=0.13.0
+sentence-transformers==5.6.0
+rank_bm25==0.2.2

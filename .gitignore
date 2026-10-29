@@ -1,0 +1,27 @@
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.DS_Store
+
+*/mpl-cache/
+
+# Withheld evaluation inputs and generated intermediate artifacts
+/data/
+/benchmark/outputs/
+/benchmark/rag/index/
+/manuscript/
+/outputs/
+/reproduced/
+*.jsonl
+*.xlsx
+*.xls
+*.docx
+*.pdf
+*.pkl
+*.npy
+*.zip
