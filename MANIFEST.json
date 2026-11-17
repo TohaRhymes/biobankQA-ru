@@ -18,8 +18,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2326,
-      "sha256": "e297f0ae90e75db6bb0d3a7b8ff70d118eee67c00c1bb9d67e13144dc61f2764"
+      "bytes": 2484,
+      "sha256": "d30fe38d9686a18e7ee3e1f8dbcde1d1b4a934e00a9b03521d4a1752a3cfd7e2"
     },
     {
       "path": "RIGHTS-STATUS.md",
@@ -302,9 +302,29 @@
       "sha256": "7173b26bb04513a251882c57886c6f8e4c9c0ea3f405618b1ebe1d2f1b0a86ac"
     },
     {
+      "path": "figures/article/Fig_1.svg",
+      "bytes": 34826,
+      "sha256": "e4718883e3b41812826d0b9400951f36a2b97b0a88942ac1b257d8472ff8a785"
+    },
+    {
+      "path": "figures/article/Fig_1_data.csv",
+      "bytes": 1466,
+      "sha256": "a23f08a63016272c5245a517a6c0e3b101de5d79c6e478c5204332c6b7b73016"
+    },
+    {
       "path": "figures/article/Fig_2.png",
       "bytes": 100708,
       "sha256": "c33ea389a03d74b31577bfd0853dc0c1cfc886d89798ab3fc55e693128818bdc"
+    },
+    {
+      "path": "figures/article/Fig_2.svg",
+      "bytes": 37976,
+      "sha256": "fbc373dd717451e62c72f1d56394905190a337a3d9b0721aac3620a0bd779fee"
+    },
+    {
+      "path": "figures/article/Fig_2_data.csv",
+      "bytes": 3312,
+      "sha256": "abee118b8e5cb2375e76b0845f7fcde4296883e78727f060c500b0af364c4131"
     },
     {
       "path": "figures/article/Suppl_Fig_3.png",
@@ -320,6 +340,16 @@
       "path": "figures/article/Suppl_Fig_5.png",
       "bytes": 288444,
       "sha256": "33a368cb7fc064445001c0b605657dbbce55eaad13d7f27cd23cd82e69c7b280"
+    },
+    {
+      "path": "figures/article/make_fig1.py",
+      "bytes": 2034,
+      "sha256": "58f03f6ff36dd40e23baf58a7d5cf87f2e108acbdff17082cf1a1df67b67501b"
+    },
+    {
+      "path": "figures/article/make_fig2.py",
+      "bytes": 2275,
+      "sha256": "42c8a1cf755618f6da587705c7d43d82279bcea58f13da0f59a0bbfb6ea911e6"
     },
     {
       "path": "prompts/current_direct.py",

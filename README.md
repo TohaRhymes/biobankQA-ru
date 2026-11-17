@@ -11,7 +11,7 @@ The 47 multiple-choice questions and 14 open situational tasks are withheld for 
 - `code/`: offline analysis code and release checks.
 - `expected/`: frozen reference result tables.
 - `results/reproduced/`: previously computed tables, plots, and historical validation report.
-- `figures/article/`: figure assets supplied with the manuscript.
+- `figures/article/`: figure assets supplied with the manuscript; `Fig_1.svg` and `Fig_2.svg` are editable vector versions (text kept as text) rebuilt from `Fig_1_data.csv`/`Fig_2_data.csv` by `make_fig1.py`/`make_fig2.py`.
 
 ## Check this release
 
